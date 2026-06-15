@@ -2,6 +2,16 @@
 
 > **MARS OpenProjects 2026** — Peer-to-Peer Encrypted File Sharing Application
 
+## 🔗 Official Links
+
+| Resource | Link |
+|---|---|
+| **Live Web App** | [https://p2-p-share-direct-file-transfer.vercel.app/](https://p2-p-share-direct-file-transfer.vercel.app/) |
+| **Backend API** | [https://p2p-share-direct-file-transfer.onrender.com](https://p2p-share-direct-file-transfer.onrender.com) |
+| **Demo Video** | *[Insert YouTube / Google Drive link here later]* |
+
+---
+
 ## ✦ Project Overview
 
 SecureDrop is a browser-based file transfer tool that lets two users share files directly — peer-to-peer — without uploading anything to a server. Files are encrypted end-to-end using AES-GCM (256-bit) through the Web Crypto API, and the encryption key is embedded purely in the URL fragment (`#key=...`), meaning **even the signaling server never has access** to the raw data or the decryption key.
@@ -142,19 +152,7 @@ This application requires two separate deployments: one for the backend signalin
    - Value: Paste the URL from Render (e.g., `https://p2pshare-backend.onrender.com`)
 6. Click **Deploy**.
 
----
 
-## ✦ Deployment Links
-
-*(After following the deployment steps above, paste your final URLs here before submitting)*
-
-| Service | URL |
-|---|---|
-| **Frontend Live Site** | *[Paste your Vercel URL here]* |
-| **Backend API** | *[Paste your Render URL here]* |
-| **Demo Video** | *[Google Drive / YouTube link]* |
-
----
 
 ## ✦ Demo Video (~3 Minutes)
 
