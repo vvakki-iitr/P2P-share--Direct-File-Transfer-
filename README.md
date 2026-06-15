@@ -8,8 +8,9 @@
 |---|---|
 | **Live Web App** | [https://p2-p-share-direct-file-transfer.vercel.app/](https://p2-p-share-direct-file-transfer.vercel.app/) |
 | **Backend API** | [https://p2p-share-direct-file-transfer.onrender.com](https://p2p-share-direct-file-transfer.onrender.com) |
-| **Demo Video** | [https://drive.google.com/file/d/1So_5UOgApvbCe2wIwAq4OiQp_GwU3Gg6/view?usp=sharing] | "Sir, whoever is watching this video, please wear headphones because, for some reason, the audio was recorded at a very low volume."
+| **Demo Video** | [Watch Demo on Google Drive](https://drive.google.com/file/d/1bndPzKNrUYvH6WYJScSuOpKoDl8rdzUe/view?usp=sharing) |
 
+> **Note:** Sir, whoever is watching this video, please wear headphones because, for some reason, the audio was recorded at a very low volume.
 
 ---
 
