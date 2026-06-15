@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 4000;
 const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 const MAX_ROOM_AGE_MS = 2 * 60 * 60 * 1000; // auto-expire rooms after 2 hours
 const USERS_FILE = path.join(__dirname, "users.json");
-app.use(cors({ origin: CLIENT_URL }));
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 // We're using a flat JSON file for user storage — simple enough for a college
@@ -145,7 +145,7 @@ app.get("/health", (req, res) => res.json({ ok: true }));
 // browsers can establish a direct peer connection. We intentionally never
 // look at the payload contents — we're just a dumb pipe.
 const io = new Server(server, {
-  cors: { origin: CLIENT_URL, methods: ["GET", "POST"] },
+  cors: { origin: "*", methods: ["GET", "POST"] },
 });
 
 io.on("connection", (socket) => {
